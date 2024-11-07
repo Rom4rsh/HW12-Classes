@@ -6,7 +6,7 @@ public class Main {
         Book book2 = new Book("Тяжко", 2024, author2);
         book.setPublicationYear(2000);
         System.out.println("Год = " + book.getPublicationYear());
-        System.out.println("book2 = " + book2.getPublicationYear() + " Название - " + book2.getBookName()+" автор- " +book2.getAuthor());
+        System.out.println("book2 = " + book2.getPublicationYear() + " Название - " + book2.getBookName() + " автор- " + book2.getAuthor());
 
 
     }
